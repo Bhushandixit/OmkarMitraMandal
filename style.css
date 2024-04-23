@@ -9,23 +9,22 @@ html{
 }
 
 .navbar{
-height: 65px;
+height: auto;
 background-color: #fff;
 width: 45%;
 position: absolute;
 top: 55%;
-left: 25%;
+left: 27.5%;
 border-radius: 8px;
 
 }
 
 .logo{
-    height: 62px;
-    width: 100px;
-    padding: 0px 60px;
+    height: auto;
+    width: auto;
 }
 
-.donate-btn{
+/* .donate-btn{
     font-size: larger;
   float: right;
   margin-right: -250px;
@@ -36,20 +35,47 @@ border-radius: 8px;
   height: 65px;
   position: relative;
   top: -80px;
+} */
+
+.donate-btn {
+    padding: 10px 20px; /* Adjust button padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #f86a05;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: 30px;
+    margin-right: 17%;
+    height: 65px;
+    border-radius: 8px;
+    font-size: large;
+    box-shadow: #131212;
+    text-decoration: none;
+    border: 1px solid #857171;
+}
+
+.donate-btn:hover{
+    background-color: #cf5e0e;
 }
 
 .mainnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: -45px;
-    margin-left: 152px;
+    justify-content: center;
+    
+    
 }
 
 .mainnav li{
     list-style: none;
-    padding: 0px 50px;
-    font-size: 19px;
+    padding: 0px 38px;
+    font-size: 21px;
     
 }
 
@@ -58,6 +84,7 @@ border-radius: 8px;
     color: black;
     
 }
+
 
 .mainnav a:hover{
     border-bottom: 3px solid #e67e22;
@@ -194,6 +221,7 @@ span{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
+    border-radius: 8px;
 }
 
 
@@ -250,7 +278,7 @@ span{
   margin-top: 0%;
   padding: 0% 3%;
 }
-}
+
 
 .venue{
     margin-right: 22%;
@@ -266,6 +294,7 @@ span{
     padding: 1% 0;
   display: flex;
    align-items: center;
+   flex-wrap: wrap;
 }
 
 .all-events{
@@ -278,6 +307,8 @@ span{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
+    border-radius: 8px;
+
 }
 
 /*==============Event Gallary============*/
@@ -316,6 +347,8 @@ span{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
+    border-radius: 8px;
+
 }
 
 /*********Footer***************/
@@ -340,7 +373,7 @@ footer {
   }
   
   /* Styling for the logo */
-  .logo {
+  .frt_logo {
     width: 200px; /* Adjust size as needed */
     height: auto;
   }
@@ -384,3 +417,6 @@ footer {
     transform: scale(1.5); /* Increase size on hover */
   }
 
+
+
+  
