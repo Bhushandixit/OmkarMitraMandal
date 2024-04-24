@@ -31,7 +31,7 @@
 
 /* Show hamburger menu for smaller screens */
 
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 0px; max-width: 481px) {
     .donate-btn{
         border-radius: 8px;
         margin-top: -15%;
@@ -350,7 +350,7 @@
   }
 
   .event-image {
-    width: 150%;
+    max-width: 100%;
     margin: 1% 29%;
 }
   .upcoming-events{
@@ -359,7 +359,7 @@
 
   .works-step {
     padding: 1% 0;
-    width: 150%;
+    width: 100%;
     display: inline-flex;
     align-items: center;
     margin-left: 33%;

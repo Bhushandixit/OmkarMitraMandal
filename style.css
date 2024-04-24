@@ -237,13 +237,13 @@ span{
     padding-right: 3%;
 }
 
-.steps-box: :last-child{
+.steps-box:last-child{
     padding-left: 3%;
 }
 
 .event-image{
-    display:inline-block
-   width: 95%;
+    display:inline-block;
+   width: 100%;
    border-radius: 8px;
 }
 .row {
@@ -324,7 +324,7 @@ span{
     margin-left: 10%; 
     height: 75px; 
     font-size: 18px; 
-    width: 120px;"
+    width: 120px;
 }
 
 .venue3{
