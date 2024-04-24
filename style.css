@@ -311,6 +311,30 @@ span{
 
 }
 
+.venue1{
+    margin-right: 32%; 
+    margin-left: 10%; 
+    height: 75px; 
+    font-size: 18px; 
+    width: 120px;
+}
+
+.venue2{
+    margin-right:22%;
+    margin-left: 10%; 
+    height: 75px; 
+    font-size: 18px; 
+    width: 120px;"
+}
+
+.venue3{
+    margin-right: 32%;
+    margin-left: 10%; 
+    height: 75px; 
+    font-size: 18px; 
+    width: 120px;
+}
+
 /*==============Event Gallary============*/
 
 .gallary{
@@ -370,6 +394,8 @@ footer {
   /* Styling for individual grid items */
   .grid-item {
     flex: 1;
+    padding: 1%;
+    
   }
   
   /* Styling for the logo */
@@ -417,6 +443,10 @@ footer {
     transform: scale(1.5); /* Increase size on hover */
   }
 
+  .cright{
+    margin-left: 45%;
+  margin-right: 43%;
+  }
 
 
   
